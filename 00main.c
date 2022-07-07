@@ -9,7 +9,7 @@ int main()
 	const char COULEUR [] = {'R', 'V', 'B', 'J', 'O'};
 	const int TAILLE_CODE = 4;
 
-	char code_secret [] = {'R', 'V', 'B', 'J'};
+	char code_secret [] = {'B', 'J', 'R', 'V'};
 	char saisie_utilisateur[TAILLE_CODE];
 	
 	for (int nb_tentative = 1; nb_tentative <= MAX_TENTATIVE; nb_tentative++)
